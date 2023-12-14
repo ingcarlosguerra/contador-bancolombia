@@ -8,7 +8,7 @@ import { useState } from 'react';
 function App() {
 	const [completed, setCompleted] = useState(false);
 	const labelDates = ['DÍAS', 'HORAS', 'MINS', 'SEGS'];
-	const finalDate = 1702616400000; // Timestamp in milliseconds
+	const finalDate = 1702616400000+64800000; // Timestamp in milliseconds
 	return (
 		<div
 			className='app'
