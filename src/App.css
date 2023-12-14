@@ -1,0 +1,42 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flip-clock {
+  /*Usar !important para que se reflejen los estilos*/
+  --fcc-flip-duration: 0.5s;
+  /* transition duration when flip card */
+  --fcc-digit-block-width: 90px !important;
+  /* digit card's width */
+  --fcc-digit-block-height: 114px !important;
+  /* digit card's height */
+  --fcc-digit-font-size: 100px !important;
+  /* font size of digit */
+  --fcc-digit-color: white;
+  /* color of digit */
+  --fcc-background: #3A3A3A !important;
+  /* digit card's background */
+  --fcc-label-color: #e40e0e;
+  /* time label's color */
+  --fcc-divider-color: #ffffff66;
+  /* divider's color */
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background-color: transparent;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  padding: 50px;
+  background-color: #282828;
+  border-radius: 15px;
+}
