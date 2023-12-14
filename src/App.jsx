@@ -1,8 +1,8 @@
 import './App.css';
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 import '@leenguyen/react-flip-clock-countdown/dist/index.css';
-import img1 from './assets/img1.png';
-import img2 from './assets/img2.png';
+import img1 from './assets/img1.jpg';
+import img2 from './assets/img2.jpg';
 import { useState } from 'react';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 						<FlipClockCountdown
 							onComplete={() => setCompleted(true)}
 							labels={labelDates}
-							labelStyle={{ fontSize: '40px' }}
+							labelStyle={{ fontSize: '20px' }}
 							className='flip-clock'
 							to={finalDate}
 							showLabels={true}

@@ -29,14 +29,14 @@
 
 .container {
   background-color: transparent;
-  height: 50%;
+  height: 89%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .countdown {
-  padding: 50px;
+  padding: 20px;
   background-color: #282828;
-  border-radius: 15px;
+  border-radius: 20px;
 }
